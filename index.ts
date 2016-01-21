@@ -13,9 +13,3 @@ res.writeHead(200, {'Conntent-Type': 'text/plain'});
 
 
 
-http.createServer(function(req, res) {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello World\n');
-}).listen(port, hostname, function () {
- 
-});
